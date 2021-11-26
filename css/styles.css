@@ -183,13 +183,5 @@ footer a{
         justify-content: center;
         min-height: 250px;
     }
-
-    .voltartopo{
-        position: fixed;
-        right: 15px;
-        bottom: 15px;
-    }
-
-
     
 }
