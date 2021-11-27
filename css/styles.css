@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: Nunito, sans-serif;
     color: #1c1c1c;
@@ -138,7 +142,7 @@ footer a{
     color: #FFFFFF;
 }
 
-.voltartopo{
+#voltaraotopo{
     position: fixed;
     right: 15px;
     bottom: 15px;
