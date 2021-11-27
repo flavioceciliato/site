@@ -151,7 +151,49 @@ footer a{
 @media screen and (min-width: 768px){
     nav{
         flex-direction: row;
-        justify-content: space-around
+        justify-content: space-around;
+        ;
+    }
+
+    nav ul{
+        flex-direction: row;
+        width: 70%;
+    }
+
+    header{
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #teste {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+
+    #projetos {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+    
+}
+
+@media screen and (min-width: 320px){
+    nav{
+        flex-direction: row;
+        justify-content: space-around;
         ;
     }
 
