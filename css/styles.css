@@ -259,5 +259,16 @@ footer a{
         text-align: center;
         margin-right: 10px;
     }
+
+    #icons{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #contatos h2{
+        text-align: center;
+        margin-right: 10px;
+    }
+
     
 }
