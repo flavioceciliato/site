@@ -101,7 +101,7 @@ header p{
     max-width: 1000px;
 }
 
-#teste{
+#bio{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -111,7 +111,7 @@ header p{
     color: #000000;
 }
 
-#teste p{
+#bio p{
     margin-bottom: 2.5em;
     max-width: 1000px;
 }
@@ -167,7 +167,7 @@ footer a{
         min-height: 250px;
     }
 
-    #teste {
+    #bio {
         height: 250px;
         height: 30vh;
         justify-content: center;
@@ -209,11 +209,21 @@ footer a{
         min-height: 250px;
     }
 
-    #teste {
+    #bio {
         height: 250px;
         height: 30vh;
         justify-content: center;
         min-height: 250px;
+    }
+
+    #bio h1{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #bio p{
+        text-align: center;
+        margin-right: 10px;
     }
 
     #sobre {
@@ -222,12 +232,32 @@ footer a{
         justify-content: center;
         min-height: 250px;
     }
+    
+    #sobre h2{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #sobre p{
+        text-align: center;
+        margin-right: 10px;
+    }
 
     #projetos {
         height: 250px;
         height: 30vh;
         justify-content: center;
         min-height: 250px;
+    }
+
+    #projetos h2{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #projetos p{
+        text-align: center;
+        margin-right: 10px;
     }
     
 }
