@@ -174,11 +174,31 @@ footer a{
         min-height: 250px;
     }
 
+    #bio h1{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #bio p{
+        text-align: center;
+        margin-right: 10px;
+    }
+
     #sobre {
         height: 250px;
         height: 30vh;
         justify-content: center;
         min-height: 250px;
+    }
+    
+    #sobre h2{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #sobre p{
+        text-align: center;
+        margin-right: 10px;
     }
 
     #projetos {
@@ -186,6 +206,26 @@ footer a{
         height: 30vh;
         justify-content: center;
         min-height: 250px;
+    }
+
+    #projetos h2{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #projetos p{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #icons{
+        text-align: center;
+        margin-right: 10px;
+    }
+
+    #contatos h2{
+        text-align: center;
+        margin-right: 10px;
     }
     
 }
