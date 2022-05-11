@@ -418,8 +418,13 @@ footer{
   #projetos-blocos{
     text-align: center;
   }
+
+  #p-projeto{
+    max-width: 250px;
+  }
+
   #projeto-foto{
-    max-width: 350px;
+    max-width: 250px;
   }
 
   #experiencia{
