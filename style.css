@@ -21,7 +21,7 @@ a:hover {
 }
 
 #logo {
-  margin-left: -50px;
+  margin-left: 30px;
 }
 
 #logo:hover{
@@ -273,6 +273,7 @@ footer{
   text-align: center;
   background: #0a8754;
   height: 100px;
+  width: 100%;
 }
 
 #p-footer{
@@ -359,6 +360,7 @@ footer{
   #btn-mobile {
     display: flex;
     padding: 0.5rem 1rem;
+    margin-right: 40px;
     font-size: 1rem;
     border: none;
     background: none;
@@ -424,8 +426,8 @@ footer{
   }
 
   .back-to-top{
-    right: 5px;
-    bottom: 4px;
+    right: 20px;
+    bottom: 10px;
   }
   #lateral-logo1, #lateral-logo2, #lateral-logo3{
     display: none;
