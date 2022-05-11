@@ -1,58 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flávio Ceciliato</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flávio Ceciliato</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,500;0,700;1,100&display=swap" rel="stylesheet">
+  <script src="jquery-3.6.0.js"></script>
 </head>
+
 <body>
-    
-    <nav id="topo">
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#projetos">Projetos</a></li>
-            <li><a href="#contatos">Contatos</a></li>
-        </ul>
+  <header id="header">
+    <a id="logo" href="#conteudo"><img src="img/logo.png" alt=""></a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false"><span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a id="btn1" href="#conteudo">Início</a></li>
+        <li><a id="btn2" href="#sobre">Sobre</a></li>
+        <li><a id="btn3" href="#title-experiencia">Experiência</a></li>
+        <li><a id="btn4" href="#projetos">Projetos</a></li>
+        <li><a id="btn5" href="#contatos">Contato</a></li>
+      </ul>
     </nav>
+  </header>
+  <section id="conteudo">
+    <div id="inicio">
+      <p>Olá, eu sou o</p>
+      <h1>Flávio Ceciliato.</h1>
+      <h2 id="web">Desenvolvo coisas para a WEB.</h2>
+      <p id="tcs">Tenho 21 anos e sou desenvolvedor em algumas linguagens deste mundo!<br>Sou desenvolvedor Front-End atualmente pela Tata Consultancy Services(TCS) no cliente Johnson & Johnson.</p>
+      <a href="Curriculo Flávio Ceciliato.pdf" download><button id="curriculo">Currículo</button></a>
+    </div>
 
-    <header>  
-        <img class="teste" src="img/perfil.jpg" style="width: auto; height: auto;max-width: 200px;max-height: 200px;box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.616);" alt="Perfil">
-    </header>
+    <div id="sobre">
+      <h2 id="title_sobre">Sobre</h2>
+      <hr id="hr-sobre">
+      <div id="sobre-caixa">   
+        <p>Desde os meus 14 anos já comecei a gostar do desenvolvimento, no qual fui influenciado pelo game Minecraft, onde participava de vários servidores do mesmo e sempre ajudava no desenvolvimento e configuração.
+        <br><br>Com 17 anos, passei no vestibular da UENP para o curso de Sistemas de Informação e Licenciatura em Computação, graduação no qual está em andamento.
+        <br><br>Hoje com 21 anos, atuo como Desenvolvedor Trainee pela TCS(Tata Consultancy Services) no projeto Johnson & Johnson.</p>
+        <img id="foto" src="img/perfil.jpg" alt="foto_profissional">
+      </div>
+    </div>
 
-    <section id="bio"> 
-        <h1>Flávio Augusto Lima Ceciliato</h1>
-        <p>Estagiário de TI na TCS - Tata Consultancy Services<br>Estudante de Sistemas de Informação e Licenciatura em Computação pela UENP</p>
-    </section>
-
-    <section id="sobre">
-        <h2>Sobre</h2>
-        <p>Olá, sou Estagiário na TCS - Tata Consultancy Services e estudante de Sistemas de Informação e Licenciatura em Computação pela UENP<br>Gosto de lidar com o público, paciente, focado sempre num melhor desempenho para atingir meus objetivos e os objetivos da instituição, facilidade em trabalho de equipe, buscando sempre o melhor resultado tendo muito respeito e empatia.</p>
-    </section>
-
-    <section id ="projetos">
-        <h2>Projetos</h2>
-        <p>Em Desenvolvimento...</p>
-    </section>
-
-    <section id="contatos">
-        <h2>Contatos</h2>
-        <div id="icons">
-            <a href="https://github.com/flavioceciliato"><img src="img/github.png" style="width: auto; height: auto;max-width: 40px;max-height: 50px" alt="GitHub"></a> &nbsp;&nbsp; <a href="https://www.instagram.com/oflavioceciliato/"><img src="img/instagram.png" style="width: auto; height: auto;max-width: 50px;max-height: 40px" alt="instagram"></a> &nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/in/flavioceciliato/"><img src="img/linkedin.png" style="width: auto; height: auto;max-width: 50px;max-height: 40px" alt="linkedin"></a>
+    <h2 id="title-experiencia">Experiência</h2>
+    <hr id="hr-experiencia">
+    <div id="experiencia">
+      <div id="event">
+        <div id="event-date">03/22 - Presente</div>
+        <h2 id="title-event">Desenvolvedor Trainee</h2>
+        <div id="timeline-content">
+          <p>Tata Consultancy Services</p>
         </div>
-    </section>
+      </div>
+      <div id="event">
+        <div id="event-date">11/21 - 03/22</div>
+        <h2 id="title-event">Estágiario de TI</h2>
+        <div id="timeline-content">
+          <p>Tata Consultancy Services</p>
+        </div>
+      </div>
+      <div id="event">
+        <div id="event-date">02/19 - 02/21</div>
+        <h2 id="title-event">Implantador de Sistemas</h2>
+        <div id="timeline-content">
+          <p>Alt Systens</p>
+        </div>
+      </div>
+      <div id="event">
+        <div id="event-date">01/15 - 12/15</div>
+        <h2 id="title-event">Atendente de Papelaria</h2>
+        <div id="timeline-content">
+          <p>Aline Papelaria</p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="projetos">
+      <h2 id="title-projetos">Projetos</h2>
+      <hr id="hr-projetos">
+      <div id="projetos-blocos">
+        <div id="projeto1">
+          <img id="projeto-foto" src="img/FACEBOOK 1365X624.jpg" alt="tela login facebook">
+          <p id="p-projeto">Projeto de Recriação da tela de login do Facebook.</p>
+        </div>
+        <div id="projeto2">
+          <img id="projeto-foto" src="img/PORTIFOLIO.jpg" alt="tela portifólio">
+          <p id="p-projeto">Criação deste Portifólio.</p>
+        </div>
+      </div>
+    </div>
 
-    <footer>
-        <p>Desenvolvido por Flávio Ceciliato</p>
-    </footer>
+    <div id="contatos">
+      <h2 id="title-contatos">Gostaria de falar comigo? =)</h2>
+      <div id="contatos-blocos">
+        <a id="a-links" href="https://github.com/flavioceciliato" target="_blank"><img src="img/github (3).png" alt="github"></a>
+        <a id="a-links" href="https://www.linkedin.com/in/flavioceciliato/" target="_blank"><img src="img/linkedin (3).png" alt="linkedin"></a>
+        <a id="a-links" href="https://www.instagram.com/oflavioceciliato/" target="_blank"><img src="img/instagram (3).png" alt="instagram"></a>
+        <a id="a-links" href="mailto:flavio_2000jbt@hotmail.com" target="_blank"><img src="img/email.png" alt="email"></a>
+      </div>
+    </div>
+  </section>
 
-    <section id="voltaraotopo">
-        <a href="#topo"><img src="img/seta-para-cima (1).png" alt="botão para voltar ao topo"></a>
-    </section>
+
+  <div id="lateral">
+    <a id="a-lateral" href="https://github.com/flavioceciliato" target="_blank"><img id="lateral-logo1" src="img/github (3).png" alt=""></a>
+    <a id="a-lateral" href="https://www.linkedin.com/in/flavioceciliato/" target="_blank"><img id="lateral-logo2" src="img/linkedin (3).png" alt=""></a>
+    <a id="a-lateral" href="https://www.instagram.com/oflavioceciliato/" target="_blank"><img id="lateral-logo3" src="img/instagram (3).png" alt=""></a>
+  </div>
+  <div class="back-to-top" href="#"></div>
+  <footer><p id="p-footer">&copy; Desenvolvido por <a id="a-footer" href="https://www.linkedin.com/in/flavioceciliato/" target="_blank">Flávio Ceciliato</a></p></footer>
+  <script src="./script.js"></script>
 </body>
+
 </html>

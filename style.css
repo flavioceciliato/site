@@ -1,0 +1,433 @@
+html{
+  scroll-behavior: smooth;
+  font-family: 'Roboto Mono', monospace;
+}
+body,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: #004f2d;
+}
+
+a {
+  color: #bfd7ea;
+  text-decoration: none;
+}
+
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+#logo {
+  margin-left: -50px;
+}
+
+#logo:hover{
+  background: none;
+}
+
+#header {
+  box-sizing: border-box;
+  width: 100%;
+  height: 70px;
+  padding: 2rem;
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  background: #004f2d;
+  box-shadow: 0px 8px 7px 0px rgba(0,0,0,0.7);
+  z-index: 1000;
+}
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+#btn-mobile {
+  display: none;
+}
+
+#conteudo{
+  display: block;
+  text-align: start;
+  padding-top: 150px;
+  margin-left: 15%;
+  max-width: 960px;
+}
+
+#conteudo p{
+  color: #bfd7ea;
+}
+
+#conteudo h1 {
+  color: #ccd6f6;
+  text-shadow: 4px 3px 0px #508ca4;
+  font-size: 60px;
+  line-height: 1;
+  margin-top: 30px;
+}
+
+#web{
+  margin-top: -30px;
+  color: #bfd7ea;
+  font-size: 50px;
+  line-height: 1;
+}
+
+#tcs{
+  margin-top: -20px;
+  max-width: 700px;
+}
+
+#curriculo{
+  border-style: none;
+  background: #0a8754;
+  width: 150px;
+  height: 50px;
+  color: #bfd7ea;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Roboto Mono', monospace;
+  cursor: pointer;
+  margin-top: 40px;
+}
+
+#curriculo:hover{
+  box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.5);
+}
+
+#sobre{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#title_sobre{
+  text-align: start;
+  padding-top: 90px;
+  font-size: 30px;
+  color: #bfd7ea;
+}
+
+#sobre-caixa{
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
+#sobre-caixa p{
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+#foto{
+  max-width: 300px;
+  margin-left: 60px;
+}
+
+#hr-sobre{
+  width: 40%;
+  height: 0px;
+  margin-top: 136px;
+  margin-left: 20px;
+}
+
+#title-event{
+  font-size: 32px;
+  margin: 0;
+  color: #0a8754;
+  border-bottom: 1px solid white;
+}
+
+#title-experiencia{
+  text-align: start;
+  padding-top: 115px;
+  font-size: 30px;
+  color: #bfd7ea;
+}
+
+#hr-experiencia{
+  width: 40%;
+  height: 0px;
+  margin-top: -40px;
+  margin-left: 220px;
+}
+
+#experiencia{
+  max-width: 960px;
+  border-left: 4px solid black;
+  padding-left: 25px;
+}
+
+#event{
+  box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 0.2);
+  padding: 32px;
+  margin: 48px 0;
+  line-height: 2;
+  cursor: pointer;
+  position: relative;
+  transition: all 500ms;
+}
+
+#event::before{
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid black;
+  position: absolute;
+  left: -36px;
+  top: 50%;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background: white;
+  transition: all 500ms;
+}
+
+#event:hover{
+  box-shadow: 1px 6px 16px -1px rgba(0, 0, 0, 0.1);
+}
+
+#event:hover::before{
+  background: #0ee68f;
+}
+
+#event-date{
+  position: static;
+  top: 50%;
+  transform: translateY(-50%);
+  font-weight: bold;
+  color: #bfd7ea;
+}
+
+#title-projetos{
+  text-align: start;
+  padding-top: 115px;
+  font-size: 30px;
+  color: #bfd7ea;
+}
+
+#hr-projetos{
+  width: 40%;
+  height: 0px;
+  margin-top: -40px;
+  margin-left: 170px;
+}
+
+#projetos-blocos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+
+#p-projeto{
+  text-align: center;
+  max-width: 450px;
+}
+
+#projeto-foto{
+  max-width: 450px;
+  box-shadow: 0px 3px 6px -2px rgba(0, 0, 0, 5);
+}
+
+#projeto-foto:hover{
+  filter: opacity(0.4) drop-shadow(0 0 0.10rem rgb(7, 218, 126));
+}
+
+#projeto1, #projeto2{
+  cursor: pointer;
+}
+
+#title-contatos{
+  text-align: center;
+  padding-top: 120px;
+  font-size: 30px;
+  color: #bfd7ea;
+}
+
+#contatos-blocos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+#a-links{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 70px;
+}
+
+footer{
+  text-align: center;
+  background: #0a8754;
+  height: 100px;
+}
+
+#p-footer{
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.back-to-top {
+  background-color: #bfd7ea;
+  border-radius: 65px;
+  bottom: 14px;
+  box-shadow: 2px 3px 19px -2px rgba(0, 0, 0, .75);
+  color: #004f2d;
+  cursor: pointer;
+  height: 40px;
+  position: fixed;
+  right: 22px;
+  width: 40px;
+  z-index: 3;
+  display: none;
+}
+
+.back-to-top::after{
+  content: '▲';
+  display: flex;
+  justify-content: center;
+  padding-left: 1px;
+  padding-top: 7px;
+}
+
+#lateral{
+  position: fixed;
+  bottom: 1px;
+  left: 20px;
+  height: 65%;
+  width: 50px;
+  text-align: center;
+}
+
+#lateral-logo1, #lateral-logo2, #lateral-logo3{
+  max-width: 40px;
+  padding-top: 20px;
+  position: relative;
+}
+
+#a-lateral:hover{
+  background: none;
+}
+
+.logo-cima{
+  bottom: 10px;
+}
+
+@media (max-width: 801px) {
+  html{
+    scroll-behavior: smooth;
+  }
+  #header{
+    justify-content: space-between;
+  }
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0px;
+    background: #0a8754;
+    transition: 0.3s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: 270px;
+    visibility: visible;
+    overflow-y: auto;
+  }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05); 
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+    background-color: #1c1c1c;
+    border: 2px solid white;
+    border-radius: 5px;
+  }
+  #hamburger {
+    border-top: 2px solid white;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+    background: white;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  #conteudo{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  #inicio{
+    margin-top: -70px;
+  }
+
+  #sobre-caixa{
+    justify-content: center;
+  }
+
+  #foto{
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  #experiencia{
+    max-width: 100%;
+    margin-left: 8px;
+  }
+
+  #event-date{
+    position: static;
+    margin-bottom: -20px;
+  }
+
+  .back-to-top{
+    right: 5px;
+    bottom: 4px;
+  }
+  #lateral-logo1, #lateral-logo2, #lateral-logo3{
+    display: none;
+  }
+}
